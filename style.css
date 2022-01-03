@@ -1,0 +1,36 @@
+body{
+    font-family: 'Noto Serif', serif;
+    margin: 0;    
+}
+h1{
+    font-size: 50px;
+}
+.orange{
+    color: coral;
+    background-color: floralwhite;
+}
+#intro{
+    color: royalblue;
+}
+section{
+    display: flex;
+}
+.width{
+    width: 50%;
+    padding-left: 10%;
+}
+.width img{
+    width: 70%;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(blue,royalblue);
+    border-radius: 8%;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 700;
+}
+.banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
