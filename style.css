@@ -12,7 +12,7 @@ h1{
 #intro{
     color: royalblue;
 }
-section{
+.flexibale-container{
     display: flex;
     margin-bottom: 150px;
 
@@ -48,5 +48,28 @@ section{
     border-radius: 8%;
     padding: 10px 15px;
 }
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.width4{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px orangered;
 
+}
+#flex{
+    border-left: 7px solid;
+    border-color: rgb(255, 145, 0);
+    border-image-slice: 1  
+}
+#flex2{
+    border-left:7px solid;
+    border-color: tomato;
+    border-image-slice: 1;
+}
 
